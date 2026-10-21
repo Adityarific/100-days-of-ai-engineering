@@ -1,7 +1,8 @@
 {
   "1": {
-    "status": "in_progress",
+    "status": "done",
     "started": "2026-10-21",
-    "folder": "modules/01-llm-fundamentals/day-001-what-an-llm-does"
+    "folder": "modules/01-llm-fundamentals/day-001-what-an-llm-does",
+    "date": "2026-10-21"
   }
 }

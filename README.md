@@ -9,13 +9,13 @@ This repository is my public log of working through the free **[100 Days of AI E
 [![Preview of the roadmap site: a loading screen that fills a 100-day grid, then a landing page with the day grid and module progress.](docs/assets/preview.png)](https://adityarific.github.io/100-days-of-ai-engineering/)
 
 <!-- PROGRESS:START -->
-![Progress](https://img.shields.io/badge/progress-0%2F100-bef23c?labelColor=14201a)
+![Progress](https://img.shields.io/badge/progress-1%2F100-bef23c?labelColor=14201a)
 
-`░░░░░░░░░░░░░░░░░░░░` **0 / 100 days complete** · 1 in progress
+`░░░░░░░░░░░░░░░░░░░░` **1 / 100 days complete**
 
 | Module | Days | Complete | Page |
 | ------ | ---- | -------- | ---- |
-| 1. LLM Fundamentals | 1–6 | 0/6 | [Open](modules/01-llm-fundamentals/README.md) |
+| 1. LLM Fundamentals | 1–6 | 1/6 | [Open](modules/01-llm-fundamentals/README.md) |
 | 2. Building with LLM APIs | 7–17 | 0/11 | [Open](modules/02-building-with-llm-apis/README.md) |
 | 3. Prompt Engineering | 18–24 | 0/7 | [Open](modules/03-prompt-engineering/README.md) |
 | 4. RAG | 25–56 | 0/32 | [Open](modules/04-rag/README.md) |
