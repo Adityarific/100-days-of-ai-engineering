@@ -1,0 +1,47 @@
+# Secrets: never commit these
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# Local data and indexes (rebuild from scripts, don't commit)
+project/data/raw/
+project/data/private/
+*.sqlite
+*.sqlite3
+*.db
+chroma/
+.chroma/
+faiss_index/
+*.faiss
+
+# Model weights and training artifacts
+*.safetensors
+*.gguf
+*.bin
+checkpoints/
+outputs/
+wandb/
+
+# Node (frontend)
+node_modules/
+dist/
+.next/
+
+# OS and editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

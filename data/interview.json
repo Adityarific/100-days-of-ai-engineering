@@ -1,0 +1,21 @@
+{
+  "answered": [],
+  "groups": [
+    {"label": "LLM Fundamentals", "module": 1, "from": 1, "to": 12},
+    {"label": "Building with LLM APIs", "module": 2, "from": 13, "to": 22},
+    {"label": "Prompt Engineering", "module": 3, "from": 23, "to": 30},
+    {"label": "RAG", "module": 4, "from": 31, "to": 50},
+    {"label": "Agents", "module": 5, "from": 51, "to": 70},
+    {"label": "Shipping to Production", "module": 6, "from": 71, "to": 85},
+    {"label": "System design", "module": null, "from": 86, "to": 91},
+    {"label": "Debugging scenarios", "module": null, "from": 92, "to": 96},
+    {"label": "Your projects", "module": null, "from": 97, "to": 100}
+  ],
+  "practice": [
+    "Answer out loud before opening the outline, then note what you missed.",
+    "Add one real example from your own experiments to every answer.",
+    "Draw design questions on paper, 30 minutes each.",
+    "Run three mock rounds: scenarios and debugging, system design, project defense.",
+    "Score each round from 1 to 4 on requirements, trade-offs, measurement, failure and security, and communication. Repeat until every score is 3 or more."
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "growth": [
+    {"module": 1, "adds": "The task, ten project questions and a shortlist of models."},
+    {"module": 2, "adds": "A LangChain assistant with conversation, streaming, structured output, tools, retries and tracing."},
+    {"module": 3, "adds": "A versioned system prompt and a prompt test set."},
+    {"module": 4, "adds": "A RAG pipeline with citations, advanced retrieval patterns, evals, regression tests and security tests."},
+    {"module": 5, "adds": "An agent with tools, an MCP server, memory, approval gates, a sandbox, agent evals and attacks."},
+    {"module": 6, "adds": "An API, a frontend, deployment, a CI gate, monitoring, caching, an optional fine-tune and a security review."}
+  ],
+  "afterDay100": {
+    "intro": "The roadmap suggests two or three projects that each show a different skill, built to the same standard as the course project: a baseline, a test set of 30 or more cases, a security pass, a live link and a short demo video.",
+    "picked": [],
+    "roles": [
+      {"label": "AI application engineer", "picks": [1, 3, 12]},
+      {"label": "Agent engineer", "picks": [4, 8, 10]},
+      {"label": "Applied ML or model-focused engineer", "picks": [2, 7, 9]},
+      {"label": "Voice or multimodal engineer", "picks": [5, 7, 1]}
+    ],
+    "items": [
+      {"id": 1, "title": "Invoice and Receipt Extractor", "level": "Intermediate", "modules": [1, 2, 4], "summary": "Reads scanned bills, pulls out the fields, checks the arithmetic and sends doubtful ones to a person."},
+      {"id": 2, "title": "Data Question Answerer", "level": "Intermediate", "modules": [2, 3, 4], "summary": "Answers plain-language questions about a dataset with read-only SQL, and shows the query behind each answer."},
+      {"id": 3, "title": "Research Agent with Cited Reports", "level": "Intermediate to advanced", "modules": [4, 5], "summary": "Researches sub-questions in parallel and writes a report where every claim links to a source that was checked."},
+      {"id": 4, "title": "Codebase Assistant", "level": "Advanced", "modules": [5], "summary": "Answers questions about a repository and proposes fixes that are verified by running tests in a sandbox."},
+      {"id": 5, "title": "Voice Booking Agent", "level": "Advanced", "modules": [1, 5], "summary": "Books, changes and cancels appointments by voice, in English and mixed Hindi-English."},
+      {"id": 6, "title": "Contract and Policy Comparer", "level": "Intermediate", "modules": [3, 4], "summary": "Compares two versions of a contract and explains what changed, with citations into both."},
+      {"id": 7, "title": "Visual Product Search", "level": "Intermediate", "modules": [1, 4], "summary": "Finds catalog items from a photo, a description, or both together."},
+      {"id": 8, "title": "Browser Task Agent", "level": "Advanced", "modules": [5], "summary": "Completes multi-step tasks on real websites and asks for approval before anything that commits."},
+      {"id": 9, "title": "Fine-Tuned Small Model", "level": "Intermediate to advanced", "modules": [3, 6], "summary": "A small LoRA-tuned model that matches a large prompted model on one narrow task at a lower cost."},
+      {"id": 10, "title": "Published MCP Server", "level": "Beginner to intermediate", "modules": [5], "summary": "An MCP server for a public API, released so other people can connect it to their own AI apps."},
+      {"id": 11, "title": "Personal Knowledge Agent", "level": "Intermediate", "modules": [4, 5], "summary": "Remembers and connects your notes over time, and lets you see, edit and delete what it remembers."},
+      {"id": 12, "title": "Cost-Cutting Model Gateway", "level": "Advanced", "modules": [6], "summary": "Sits in front of several model providers and cuts cost with caching, routing and failover, with a usage dashboard."}
+    ]
+  }
+}

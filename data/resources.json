@@ -1,0 +1,84 @@
+{
+  "note": "Mapped at playlist level. The exact video or doc page is verified on the day and recorded in that day's README.",
+  "modules": [
+    {
+      "module": 1,
+      "coverage": "gap",
+      "summary": "No matching CampusX playlist. Use long-form LLM talks, provider docs and a tokenizer tool.",
+      "sources": [
+        {"days": [1, 1], "use": "How an LLM works end to end", "where": "Andrej Karpathy's long-form LLM talks on YouTube"},
+        {"days": [2, 2], "use": "Tokens, cost, latency, context limits", "where": "Your provider's docs and a tokenizer tool"},
+        {"days": [3, 3], "use": "Images, audio and PDFs", "where": "Your provider's vision and document docs"},
+        {"days": [4, 5], "use": "Settings, reasoning models, failure modes", "where": "Provider docs, plus your own experiments"},
+        {"days": [6, 6], "use": "Choosing a model", "where": "Provider model pages and a public leaderboard to shortlist; your own questions to decide"}
+      ]
+    },
+    {
+      "module": 2,
+      "coverage": "covered",
+      "summary": "The CampusX Generative AI using LangChain course matches most units. Check each day that the free version covers it.",
+      "sources": [
+        {"days": [7, 17], "use": "LangChain, messages, templates, streaming, structured output, tools, chains", "where": "CampusX: Generative AI using LangChain, and the LangChain docs"},
+        {"days": [8, 8], "use": "Open and local models", "where": "Ollama docs"},
+        {"days": [15, 16], "use": "Retries, fallbacks, batching", "where": "LangChain docs"},
+        {"days": [17, 17], "use": "Tracing and cost", "where": "LangSmith docs (free tier)"}
+      ]
+    },
+    {
+      "module": 3,
+      "coverage": "gap",
+      "summary": "No matching CampusX playlist. Use the prompt guides from model providers and the tool docs.",
+      "sources": [
+        {"days": [18, 22], "use": "Prompt structure, system prompts, few-shot, reasoning prompts, testing", "where": "Prompt engineering guides from Anthropic and OpenAI, LangChain docs"},
+        {"days": [23, 23], "use": "Automatic prompt improvement", "where": "DSPy docs"},
+        {"days": [24, 24], "use": "Versioning, caching, prompt injection", "where": "Provider caching docs, OWASP Top 10 for LLM Applications"}
+      ]
+    },
+    {
+      "module": 4,
+      "coverage": "partial",
+      "summary": "The RAG and LLM Evaluation playlists cover the build and eval parts. Advanced patterns and security need other sources.",
+      "sources": [
+        {"days": [25, 36], "use": "Build a simple RAG", "where": "CampusX: RAG Playlist, LangChain docs, pgvector docs"},
+        {"days": [28, 28], "use": "Messy document parsing", "where": "Docs for Unstructured and Docling"},
+        {"days": [37, 44], "use": "Hybrid search, reranking, query transformation, self-correcting RAG, text-to-SQL, Graph RAG", "where": "LangChain and LangGraph docs and the original papers"},
+        {"days": [45, 51], "use": "Evals, judges, regression tests", "where": "CampusX: LLM Evaluation, DeepEval and RAGAS docs"},
+        {"days": [52, 56], "use": "RAG security", "where": "OWASP Top 10 for LLM Applications, a summary of India's DPDP Act"}
+      ]
+    },
+    {
+      "module": 5,
+      "coverage": "partial",
+      "summary": "LangGraph, MCP and memory have CampusX playlists. Context engineering, multi-agent work and agent security need other sources.",
+      "sources": [
+        {"days": [57, 63], "use": "Agent loop, LangGraph, tools, planning, approval", "where": "CampusX: Agentic AI using LangGraph, LangGraph docs"},
+        {"days": [64, 66], "use": "MCP fundamentals and building servers", "where": "CampusX: Model Context Protocol, the official MCP docs"},
+        {"days": [67, 68], "use": "Memory", "where": "CampusX: Memory in LLMs, LangGraph memory docs"},
+        {"days": [69, 71], "use": "Context engineering", "where": "LangGraph docs, provider caching docs, engineering blog posts"},
+        {"days": [72, 72], "use": "Harness engineering, learning from existing coding agents", "where": "CampusX: Agentic Coding using Claude Code"},
+        {"days": [73, 76], "use": "Multi-agent systems and reliability", "where": "LangGraph multi-agent docs"},
+        {"days": [77, 79], "use": "Agent evals", "where": "CampusX: LLM Evaluation, LangSmith docs"},
+        {"days": [80, 83], "use": "Agent security, sandboxing, MCP security", "where": "OWASP Top 10 for LLM Applications, MCP security guidance, sandbox tool docs"}
+      ]
+    },
+    {
+      "module": 6,
+      "coverage": "gap",
+      "summary": "Mostly gaps. FastAPI and MLOps have partial CampusX coverage; the rest uses official docs.",
+      "sources": [
+        {"days": [84, 84], "use": "System design", "where": "Your own design doc and the roadmap's design questions"},
+        {"days": [85, 85], "use": "API service", "where": "CampusX: FastAPI for Machine Learning, FastAPI docs"},
+        {"days": [86, 86], "use": "Frontend", "where": "Docs for the framework you choose"},
+        {"days": [87, 88], "use": "Containers and deployment", "where": "Docker docs and your chosen host's docs"},
+        {"days": [89, 89], "use": "CI for evals", "where": "GitHub Actions docs"},
+        {"days": [90, 92], "use": "Safe releases and monitoring", "where": "CampusX: 100 Days of MLOps (partial), LangSmith docs"},
+        {"days": [93, 94], "use": "Caching, cost, gateways", "where": "Provider caching docs, an open-source gateway such as LiteLLM"},
+        {"days": [95, 95], "use": "Serving open models", "where": "vLLM docs"},
+        {"days": [96, 98], "use": "Fine-tuning, LoRA, distillation", "where": "Hugging Face docs (PEFT, TRL), Unsloth notebooks"},
+        {"days": [99, 99], "use": "Incidents and runbooks", "where": "Your own runbooks and public postmortems"},
+        {"days": [100, 100], "use": "Whole-app security review", "where": "OWASP Top 10 for LLM Applications"}
+      ]
+    }
+  ],
+  "outsideRoadmap": "Valuable but not part of the 100 days, so they never replace a roadmap day: Maths for Machine Learning, Practical Deep Learning using PyTorch, Deep Learning Optimizers, Reinforcement Learning Crash Course, ML and SQL interview questions, the Data Science Mentorship Program."
+}

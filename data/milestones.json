@@ -1,0 +1,13 @@
+{
+  "milestones": [
+    {"after_day": 6, "title": "Module 1 recap", "note": "What a request costs, where models fail, and how I chose one."},
+    {"after_day": 17, "title": "Module 2 recap", "note": "The LangChain assistant: streaming, structured output, tools, retries and tracing."},
+    {"after_day": 24, "title": "Module 3 recap", "note": "Versioned prompts, scored on a test set."},
+    {"after_day": 36, "title": "First RAG pipeline demo", "note": "Answers with citations, and an honest I don't know."},
+    {"after_day": 51, "title": "Regression suite", "note": "One command that fails when the app gets worse."},
+    {"after_day": 56, "title": "Module 4 recap", "note": "RAG results, evals and the attacks I tried."},
+    {"after_day": 83, "title": "Module 5 recap and red-team results", "note": "The agent, its measured behavior, and how many attacks got through."},
+    {"after_day": 88, "title": "The app is live", "note": "A link anyone can try and a short demo video."},
+    {"after_day": 100, "title": "Full retrospective", "note": "Total cost, final eval scores and what I would change."}
+  ]
+}
