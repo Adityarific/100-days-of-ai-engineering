@@ -11,7 +11,7 @@ This repository is my public log of working through the free **[100 Days of AI E
 <!-- PROGRESS:START -->
 ![Progress](https://img.shields.io/badge/progress-0%2F100-bef23c?labelColor=14201a)
 
-`░░░░░░░░░░░░░░░░░░░░` **0 / 100 days complete**
+`░░░░░░░░░░░░░░░░░░░░` **0 / 100 days complete** · 1 in progress
 
 | Module | Days | Complete | Page |
 | ------ | ---- | -------- | ---- |
@@ -58,7 +58,7 @@ A small static site in [`site/`](site/) turns this repository into a personal ro
 
 It reads `data/*.json`, the same files the tracker writes. When I finish a day and push, a GitHub Actions workflow redeploys the site, so the site and this README always agree.
 
-To preview it locally, run `python -m http.server` in the repository root and open `http://localhost:8000/site/`.
+To preview it locally, run `python -m http.server` in the repository root and open `http://localhost:8000/site/`. How content gets onto the site is explained in [docs/UPDATING_THE_SITE.md](docs/UPDATING_THE_SITE.md).
 
 ## How each day works
 

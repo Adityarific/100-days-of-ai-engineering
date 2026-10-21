@@ -6,7 +6,7 @@
 
 | Day | Module | Unit | Topic | Status | Completed | Post |
 | --: | ------ | ---- | ----- | ------ | --------- | ---- |
-| 1 | M1 | 1.1 | What an LLM Does | ⬜ Not started |  |  |
+| 1 | M1 | 1.1 | [What an LLM Does](modules/01-llm-fundamentals/day-001-what-an-llm-does/) | 🟡 In progress |  |  |
 | 2 | M1 | 1.2 | Tokens, Context and Latency | ⬜ Not started |  |  |
 | 3 | M1 | 1.3 | Beyond Text: Images, Audio and PDFs | ⬜ Not started |  |  |
 | 4 | M1 | 1.4 | Controlling Output | ⬜ Not started |  |  |

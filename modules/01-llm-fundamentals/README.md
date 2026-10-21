@@ -8,7 +8,7 @@ Understand how LLMs behave, what a request costs, where models fail, and how to 
 
 | Day | Unit | Topic | Status | Post |
 | --: | ---- | ----- | ------ | ---- |
-| 1 | 1.1 | What an LLM Does | ⬜ Not started |  |
+| 1 | 1.1 | [What an LLM Does](day-001-what-an-llm-does/) | 🟡 In progress |  |
 | 2 | 1.2 | Tokens, Context and Latency | ⬜ Not started |  |
 | 3 | 1.3 | Beyond Text: Images, Audio and PDFs | ⬜ Not started |  |
 | 4 | 1.4 | Controlling Output | ⬜ Not started |  |
