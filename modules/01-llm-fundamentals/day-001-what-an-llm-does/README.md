@@ -8,30 +8,18 @@ Explain in two sentences how an LLM produces an answer and why it can sound conf
 
 ## What I studied
 
-<!-- Link every source you actually used. Prefer official docs and free YouTube lessons. -->
-
-- 
+Andrej Karpathy — Intro to Large Language Models (YouTube).
+https://huggingface.co/learn/llm-course/chapter1/1?utm_source=chatgpt.com
+https://platform.openai.com/docs/concepts?utm_source=chatgpt.com
 
 ## What I built
 
 [`experiments/same_prompt_5x.py`](experiments/same_prompt_5x.py) sends one prompt to a chat model five times and records every answer, the token counts and the latency, first at temperature 1 and then at temperature 0. Raw results are saved next to the script as `results_t1.json` and `results_t0.json`.
 
-## Results
-
-<!-- Real numbers from today's experiment. Delete rows you don't need. -->
-
-| Setup | Result | Tokens (in / out) | Cost | Latency |
-| ----- | ------ | ----------------- | ---- | ------- |
-| 5 runs, temperature 1 | _distinct answers: ? of 5_ | | | |
-| 5 runs, temperature 0 | _distinct answers: ? of 5_ | | | |
 
 ## What broke or surprised me
 
-<!-- At least one honest failure. This is the most useful part of the page. -->
-
-## Interview questions this day touches
-
-<!-- Question numbers from the roadmap's interview prep, answered in your own words in INTERVIEW_PREP.md -->
+My first experiment attempt returned HTTP 429 (rate limit exceeded). This reminded me that using an API involves practical constraints, not just writing code. I still need a successful run to compare the actual outputs and measurements.
 
 ## Files
 

@@ -1,27 +1,17 @@
-<!--
-POST RULES (delete this block before posting)
-1. The hook is a concrete finding with a number, not "Day N done".
-2. Everything under "What I did" must be something I actually ran.
-3. Include one thing that failed or surprised me.
-4. One link only: today's folder in the repo.
-5. Credit the roadmap. Keep it under ~200 words.
-6. Write the finding and the failure in my own voice; use Claude for structure and editing, not for the experience.
--->
+**Day 1/100 of AI Engineering: What an LLM Does**
 
-Day 1/100 of AI Engineering: What an LLM Does
+One thing I learned today: an LLM predicts the next token repeatedly to generate an answer, but a fluent answer isn't necessarily a correct one.
 
-[Hook: the one concrete thing I found today, with a number.]
+**What I did:**
+→ Studied how next-token prediction works.
+→ Wrote notes on temperature, tokenization, and hallucinations.
+→ Started a Python experiment to compare five responses to the same prompt at different temperature settings.
 
-What I did:
-→ 
-→ 
-→ 
+**What broke or surprised me:**
+My first API experiment returned HTTP 429 (rate limit exceeded), so I couldn't yet collect reliable results.
 
-What broke or surprised me:
-[One honest sentence or two.]
-
-The number that mattered:
-[Tokens, cost, latency, accuracy, recall: whichever fits today.]
+**The number that mattered:**
+5 planned runs per temperature setting. Actual output differences, token usage, cost, and latency are still pending.
 
 Notes, code and a theory PDF for this day:
 https://github.com/Adityarific/100-days-of-ai-engineering/tree/main/modules/01-llm-fundamentals/day-001-what-an-llm-does
